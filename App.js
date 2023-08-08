@@ -1,5 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, ScrollView, TextInput } from 'react-native';
+import PizzaTranslator from './PizzaTranslator';
+
 
 export default function App() {
   return (
@@ -27,6 +29,7 @@ export default function App() {
         }}
         defaultValue="You can type in me"
       />
+      <PizzaTranslator/>
     </ScrollView>
       <StatusBar style="auto" />
     </View>
