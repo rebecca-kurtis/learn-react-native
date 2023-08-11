@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Image, ScrollView, TextInput } from 'react-nati
 import FlatListBasics from './FlatListBasics';
 import PizzaTranslator from './PizzaTranslator';
 import ScrollViewExample from './ScrollViewExample';
-
+import SectionListBasics from './SectionListBasics';
 
 export default function App() {
   return (
@@ -33,8 +33,10 @@ export default function App() {
       />
       <PizzaTranslator/>
       <FlatListBasics/>
+      <SectionListBasics/>
       <ScrollViewExample />
     </ScrollView>
+    <SectionListBasics/>
       <StatusBar style="auto" />
     </View>
   );
